@@ -268,13 +268,18 @@ footer{
     margin: 0;
 }
 
-.footer-form form input[name],.footer-form form input[email],.footer-form form textarea{
+.footer-form form input,.footer-form form textarea{
     display: block;
     padding: 18px 30px;
     margin: 24px 0;
     border: none;
     width: 460px;
     border: 1px solid;
+}
+
+footer form input[type="submit"]{
+   width: auto; 
+  
 }
 .footer-message{
     margin: 0 120px;
