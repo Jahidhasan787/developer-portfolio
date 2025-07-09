@@ -240,7 +240,7 @@ header {
 
 }
 
-.resume-content h6 {
+.resume-content h6,.footer-content p {
     font-size: 16px;
     font-weight: 500;
     color: #757575;
@@ -257,6 +257,28 @@ hr {
     justify-content: center;
     align-items: center;
     margin: 50px 50px 113px;
+}
+
+/* footer styles */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding:130px 230px;
+    margin: 0;
+}
+
+.footer-form form input[name],.footer-form form input[email],.footer-form form textarea{
+    display: block;
+    padding: 18px 30px;
+    margin: 24px 0;
+    border: none;
+    width: 460px;
+    border: 1px solid;
+}
+.footer-message{
+    margin: 0 120px;
+
 }
 
 
