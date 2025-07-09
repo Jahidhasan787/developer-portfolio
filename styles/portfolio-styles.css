@@ -87,7 +87,7 @@ nav ul li a {
 }
 
 header {
-    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-image:url(/images/developer.png),url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
@@ -210,7 +210,7 @@ header {
 
 .resume-heading {
     /* border: 2px solid; */
-    margin: 120px 230px 0px 230px;
+    margin: 120px 180px 0px 180px;
 
 }
 
